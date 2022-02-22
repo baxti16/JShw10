@@ -1,0 +1,23 @@
+.all_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 95vh;
+  flex-direction: column;
+}
+.card__item {
+  background-color: black;
+  padding: 70px;
+  cursor: pointer;
+}
+
+.top_cards {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom_cards {
+    display: flex;
+    gap: 20px;
+}
